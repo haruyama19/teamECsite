@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* 商品詳細画面 */
+
+/* 商品画像 */
+.pic{
+	float: left;
+	width: 20vw;
+	height: 20vw;
+	margin-left: 5vw;
+	margin-right: 3vw;
+	}
+
+/* 商品 */
+table.table{
+	border-collapse: collapse;
+	width: 370px;
+}
+
+/* 見出し */
+th{
+	text-align: left;
+	color: white;
+	white-space: nowrap;
+	background: #ee827c;
+	width: 110px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* 商品詳細情報 */
+td{
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+tr,td{
+	border: 1px solid black;
+}
+
+/* ボタン位置 */
+.button{
+	width: 370px;
+	margin-left: 20vw;
+	margin-bottom: 10vh;
+}
+
+/* 関連商品 */
+
+h2{
+	margin-left: 2vw;
+}
+
+.related{
+	text-align: center;
+	float: left;
+	width: 33.3%;
+	height: 148px;
+}
+
+/* 関連商品画像 */
+.pic2{
+	width: 10vw;
+	height: 10vw;
+}
+
+/* リンク */
+a{
+	text-decoration: none;
+	color: black;
+}

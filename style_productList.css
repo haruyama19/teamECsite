@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 商品一覧画面 */
+
+.main{
+	position: relative;
+	overflow: hidden;
+}
+
+/* 商品 */
+.box{
+	position: relative;
+	left: 7%;
+	display: inline-block;
+	float: left;
+	margin: 7vw;
+	text-align: center;
+	}
+
+.box span{
+	margin: 1vh;
+	display: block;
+}
+
+/* 画像サイズ */
+.pic{
+	width: 15vw;
+	height: 15vw;
+}
+
+/* リンク */
+a{
+	color: black;
+	font-size: 12px;
+	line-height: 1.4em;
+}
